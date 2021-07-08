@@ -6,6 +6,7 @@
     width: 100%;
     background-color: deepskyblue;
     border: 2px solid;
+    margin-top: 10px;
 }
 
 .container{
@@ -42,20 +43,29 @@
     margin-top: 25px;
 }
 
+.containerS1None{
+    width: 150px;
+
+}
+.containerS2None{
+    width: 250px;
+
+}
+.containerS3None{
+    width: 800px;
+
+}
 
 .containerS1{
     width: 150px;
     flex-shrink: 3;
-
 }
 .containerS2{
     width: 250px;
     flex-shrink: 2;
-
 }
 .containerS3{
     width: 800px;
     flex-shrink: 1;
-
 }
 
